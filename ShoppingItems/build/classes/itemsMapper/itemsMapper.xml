@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!-- namespace 命名空间 
+	parameterType  声明参数类型
+	resultType 声明输出的结果类型  应返回javabean的全路径
+	#{id}  输入参数占位符 相当于 jdbc的   ？
+ -->
