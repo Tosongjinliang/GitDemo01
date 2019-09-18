@@ -1,8 +1,11 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
 <head>
-	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
-	<title>登录商城</title>
+<title>Insert title here</title>
+<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+	<title>用户注册</title>
 	<link rel="stylesheet" href="style/base.css" type="text/css">
 	<link rel="stylesheet" href="style/global.css" type="text/css">
 	<link rel="stylesheet" href="style/header.css" type="text/css">
@@ -18,7 +21,7 @@
 			</div>
 			<div class="topnav_right fr">
 				<ul>
-					<li>您好，欢迎来到京西！[<a href="login.html">登录</a>] [<a href="regist.html">免费注册</a>] </li>
+					<li>您好，欢迎来到京西！[<a href="login.jsp">登录</a>] [<a href="regist.jsp">免费注册</a>] </li>
 					<li class="line">|</li>
 					<li>我的订单</li>
 					<li class="line">|</li>
@@ -41,9 +44,9 @@
 	<!-- 页面头部 end -->
 	
 	<!-- 登录主体部分start -->
-	<div class="login w990 bc mt10">
+	<div class="login w990 bc mt10 regist">
 		<div class="login_hd">
-			<h2>用户登录</h2>
+			<h2>用户注册</h2>
 			<b></b>
 		</div>
 		<div class="login_bd">
@@ -53,11 +56,17 @@
 						<li>
 							<label for="">用户名：</label>
 							<input type="text" class="txt" name="username" />
+							<p>3-20位字符，可由中文、字母、数字和下划线组成</p>
 						</li>
 						<li>
 							<label for="">密码：</label>
 							<input type="password" class="txt" name="password" />
-							<a href="">忘记密码?</a>
+							<p>6-20位字符，可使用字母、数字和符号的组合，不建议使用纯数字、纯字母、纯符号</p>
+						</li>
+						<li>
+							<label for="">确认密码：</label>
+							<input type="password" class="txt" name="password" />
+							<p> <span>请再次输入密码</p>
 						</li>
 						<li class="checkcode">
 							<label for="">验证码：</label>
@@ -67,7 +76,7 @@
 						</li>
 						<li>
 							<label for="">&nbsp;</label>
-							<input type="checkbox" class="chb"  /> 保存登录信息
+							<input type="checkbox" class="chb" checked="checked" /> 我已阅读并同意《用户注册协议》
 						</li>
 						<li>
 							<label for="">&nbsp;</label>
@@ -76,25 +85,13 @@
 					</ul>
 				</form>
 
-				<div class="coagent mt15">
-					<dl>
-						<dt>使用合作网站登录商城：</dt>
-						<dd class="qq"><a href=""><span></span>QQ</a></dd>
-						<dd class="weibo"><a href=""><span></span>新浪微博</a></dd>
-						<dd class="yi"><a href=""><span></span>网易</a></dd>
-						<dd class="renren"><a href=""><span></span>人人</a></dd>
-						<dd class="qihu"><a href=""><span></span>奇虎360</a></dd>
-						<dd class=""><a href=""><span></span>百度</a></dd>
-						<dd class="douban"><a href=""><span></span>豆瓣</a></dd>
-					</dl>
-				</div>
+				
 			</div>
 			
-			<div class="guide fl">
-				<h3>还不是商城用户</h3>
-				<p>现在免费注册成为商城用户，便能立刻享受便宜又放心的购物乐趣，心动不如行动，赶紧加入吧!</p>
-
-				<a href="regist.html" class="reg_btn">免费注册 >></a>
+			<div class="mobile fl">
+				<h3>手机快速注册</h3>			
+				<p>中国大陆手机用户，编辑短信 “<strong>XX</strong>”发送到：</p>
+				<p><strong>1069099988</strong></p>
 			</div>
 
 		</div>

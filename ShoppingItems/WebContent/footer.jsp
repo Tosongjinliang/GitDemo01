@@ -1,7 +1,11 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<%@ page language="java" contentType="text/html; UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
 <head>
-	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+
+<title>Insert title here</title>
+<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
 	<title>底部版权</title>
 	<link rel="stylesheet" href="style/base.css" type="text/css"/>
 	<link rel="stylesheet" href="style/global.css" type="text/css"/>

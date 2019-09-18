@@ -1,6 +1,9 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<%@ page language="java" contentType="text/html; UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
 <head>
+<title>Insert title here</title>
 	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
 	<title>商品页面</title>
 	<link rel="stylesheet" href="style/base.css" type="text/css">
@@ -34,6 +37,8 @@
 		})
 	</script>
 </head>
+
+
 <body>
 	<!-- 顶部导航 start -->
 	<div class="topnav">
@@ -43,7 +48,7 @@
 			</div>
 			<div class="topnav_right fr">
 				<ul>
-					<li>您好，欢迎来到京西！[<a href="login.html">登录</a>] [<a href="register.html">免费注册</a>] </li>
+					<li>您好，欢迎来到京西！[<a href="login.jsp">登录</a>] [<a href="register.jsp">免费注册</a>] </li>
 					<li class="line">|</li>
 					<li>我的订单</li>
 					<li class="line">|</li>
@@ -89,17 +94,17 @@
 				<dl>
 					<dt>
 						<em></em>
-						<a href="html/user.html">用户中心</a>
+						<a href="html/user.jsp">用户中心</a>
 						<b></b>
 					</dt>
 					<dd>
 						<div class="prompt">
-							您好，请<a href="login.html">登录</a>
+							您好，请<a href="login.jsp">登录</a>
 						</div>
 						<div class="uclist mt10">
 							<ul class="list1 fl">
-								<li><a href="">用户信息></a></li>
-								<li><a href="">我的订单></a></li>
+								<li><a href="html/user.jsp">用户信息></a></li>
+								<li><a href="html/order.jsp">我的订单></a></li>
 								<li><a href="">收货地址></a></li>
 								<li><a href="">我的收藏></a></li>
 							</ul>
@@ -1070,5 +1075,6 @@
 	<script type="text/javascript">
 		document.execCommand("BackgroundImageCache", false, true);
 	</script>
+
 </body>
 </html>

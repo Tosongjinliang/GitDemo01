@@ -1,7 +1,9 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<%@ page language="java" contentType="text/html; UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
 <head>
-	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
 	<title>填写核对订单信息</title>
 	<link rel="stylesheet" href="../style/base.css" type="text/css">
 	<link rel="stylesheet" href="../style/global.css" type="text/css">
@@ -11,8 +13,9 @@
 
 	<script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
 	<script type="text/javascript" src="js/cart2.js"></script>
-
+<title>Insert title here</title>
 </head>
+
 <body>
 	<!-- 顶部导航 start -->
 	<div class="topnav">
@@ -22,7 +25,7 @@
 			</div>
 			<div class="topnav_right fr">
 				<ul>
-					<li>您好，欢迎来到京西！[<a href="../login.html">登录</a>] [<a href="../regist.html">免费注册</a>] </li>
+					<li>您好，欢迎来到京西！[<a href="../login.jsp">登录</a>] [<a href="../regist.jsp">免费注册</a>] </li>
 					<li class="line">|</li>
 					<li>我的订单</li>
 					<li class="line">|</li>
@@ -309,7 +312,7 @@
 		</div>
 
 		<div class="fillin_ft">
-			<a href="flow3.html"><span>提交订单</span></a>
+			<a href="flow3.jsp"><span>提交订单</span></a>
 			<p>应付总额：<strong>￥5076.00元</strong></p>
 			
 		</div>

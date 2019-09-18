@@ -1,6 +1,10 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<%@ page language="java" contentType="text/html; UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
 <head>
+<meta charset="UTF-8">
+
 	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
 	<title>商品列表页</title>
 	<link rel="stylesheet" href="style/base.css" type="text/css">
@@ -24,7 +28,7 @@
 			</div>
 			<div class="topnav_right fr">
 				<ul>
-					<li>您好，欢迎来到京西！[<a href="login.html">登录]</a> [<a href="regist.html">免费注册]</a> </li>
+					<li>您好，欢迎来到京西！[<a href="login.jsp">登录]</a> [<a href="regist.jsp">免费注册]</a> </li>
 					<li class="line">|</li>
 					<li>我的订单</li>
 					<li class="line">|</li>
@@ -79,7 +83,7 @@
 						</div>
 						<div class="uclist mt10">
 							<ul class="list1 fl">
-								<li><a href="">用户信息></a></li>
+								<li><a href="html/user.jsp">用户信息></a></li>
 								<li><a href="">我的订单></a></li>
 								<li><a href="">收货地址></a></li>
 								<li><a href="">我的收藏></a></li>
